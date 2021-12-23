@@ -4,7 +4,7 @@ A =[]
 j = 0
 while j < 100:
     j+=1
-    A = A.insert(j)
+    A.insert(j-1,j)
 SA = [sin(i) for i in A]
 plt.plot(SA)
 plt.plot(range(20))
